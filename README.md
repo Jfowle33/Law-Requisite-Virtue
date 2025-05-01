@@ -42,7 +42,7 @@ Virtue Mode	φ_i(x, t):	Domain-specific virtue signals (e.g., care, justice)
 Conversion Gain	K_i(x, t):	Actor’s openness to virtue influence
 Distortion	D(x, t):	Corruption, delay, mismanagement
 Moral Feedback	𝔽_{ij}:	Narrative alignment or coordination across actors
-
+```
 ---
 
 ## Modules
