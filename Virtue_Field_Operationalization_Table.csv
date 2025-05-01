@@ -1,0 +1,8 @@
+Theoretical Construct,Operational Variable,Data Source,Measurement Method / Notes
+"φ_i(x, t) — Virtue Mode (e.g., justice, care)",Equity Index of Relief Allocation (income/race adjusted),"FEMA, Census, HUD",Use Gini coefficients or distribution ratios comparing relief amount per capita across demographic groups
+"K_i(x, t) — Responsiveness to Virtue",Speed of Policy Activation / Relief Disbursement,"FEMA Situation Reports, GAO",Measure time (in days) between disaster declaration and initial fund disbursement or deployment of aid
+"V(x, t) — Agent Virtue Field",Composite Index: Responsiveness + Equity - Distortion,Constructed from other variables,Weighted formula: V = α * Responsiveness + β * Equity - γ * Distortion
+"D(x, t) — Distortion (entropy, corruption)","Reported fraud, mismanagement, or failure in response","GAO, Inspector General Reports","Count of official reports, severity scores, or press mentions of failure"
+λ — Perturbation Magnitude,Severity Index of Disaster,"NOAA, NCEI","Use normalized metrics: wind speed, flood depth, economic damage, deaths"
+"haus(S_1, S_2) — Response Divergence",Distributional Distance in Relief Behavior,Computed from FEMA data,Use cosine similarity or KL-divergence on per capita aid vectors between jurisdictions
+F_ij — Moral Feedback / Coordination,Narrative Alignment Between Governance Levels,"Press Releases, Public Statements, Media",Use NLP topic modeling or sentiment alignment across county/state/federal press

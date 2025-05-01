@@ -1,0 +1,6 @@
+Actor Type,Target Dataset(s),Format,Time Range,Access Source / URL
+Politician,"Congressional Voting Records, Biographical Directory, GovTrack Voting Scores","CSV, JSON, API",2000–present (focus on major disaster years),"https://www.govtrack.us, https://voteview.com, https://www.congress.gov"
+PAC (Political Action Committee),"FEC Individual and Committee Contributions, OpenSecrets PAC Database","CSV, Excel, JSON",2000–present (align with disaster timelines),"https://www.fec.gov/data/, https://www.opensecrets.org"
+SIG (Special Interest Group),"Lobbying Disclosure Act Filings, IRS 990s (nonprofits)","XML, PDF (parseable), Excel",2000–present (lobbying filings quarterly),"https://lda.senate.gov, https://projects.propublica.org/nonprofits"
+Bureaucracy (FEMA),"Disaster Declarations, Situation Reports, GAO Audits","CSV, PDF, JSON",2000–present (focus on FEMA-declared disaster events),"https://www.fema.gov/openfema-data, https://www.gao.gov, https://www.omb.gov"
+Constituent (Public),"Census Demographic Data, Public Opinion Polling, Disaster Recovery Surveys","CSV, Excel, Survey Instruments","Decennial + ACS (annual), polling post-disaster","https://data.census.gov, https://www.pewresearch.org, https://hazards.colorado.edu"

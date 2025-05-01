@@ -1,0 +1,6 @@
+Actor Type,Role in Virtue Field,Key Variables,Interactions,Data Sources
+Politician,Implements policy; mediates virtue potential through institutional response.,"V(x, t), K_i, φ_i, D",Receives influence from PACs and SIGs; interacts with bureaucracies and constituents.,"FEC data, GovTrack, Congressional Records"
+PAC (Political Action Committee),Amplifies or distorts virtue signals via funding and endorsements.,"K_i, D",Influences politicians; aligned with SIGs; indirectly affects bureaucratic implementation.,"OpenSecrets, FEC filings"
+SIG (Special Interest Group),Generates or modifies virtue potentials (φ_i); steers political discourse.,"φ_i, K_i",Lobbies politicians; collaborates with PACs; impacts bureaucratic agendas.,"Lobbying Disclosure Act Database, IRS 990s"
+"Bureaucracy (e.g., FEMA)",Implements response; translates virtue potential into action under constraint.,"V(x, t), R, E, D",Executes politician-led policy; interacts with constituents and other bureaucracies.,"FEMA reports, GAO audits, OMB datasets"
+Constituent (Public),Moral source and affected party; indirectly modulates virtue signal strength.,"φ_i, feedback on K_i",Influences politicians and bureaucracies via elections and public discourse.,"Census data, opinion polling, disaster impact surveys"
