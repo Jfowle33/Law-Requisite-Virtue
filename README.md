@@ -22,7 +22,7 @@ It operationalizes constructs like **virtue potential**, **conversion gain**, an
 ---
 
 ## Folder Structure
-
+```bash
 virtue-cybernetic-pipeline/
 │
 ├── data/                   # Raw and processed datasets
