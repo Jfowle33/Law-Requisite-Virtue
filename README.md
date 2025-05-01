@@ -47,29 +47,59 @@ Moral Feedback	𝔽_{ij}:	Narrative alignment or coordination across actors
 
 ## Modules
 
-1. build_legislation.py
+##1.## build_legislation.py
 Collects voting records, sponsorship, and policy metadata
 
 Joins with disaster declaration timeline
 
-2. build_pac_network.py
+##2.## build_pac_network.py
 Extracts PAC contributions and alignments with disaster-related votes
 
 Computes influence weightings per legislator
 
-3. build_sig_lobbying.py
+##3.## build_sig_lobbying.py
 Parses SIG lobbying disclosures
 
 Tracks language and targets related to disaster bills
 
-4. build_fema_response.py
+##4.## build_fema_response.py
 Pulls OpenFEMA, GAO, and budgetary execution data
 
 Calculates time-to-disbursement and error/failure metrics
 
-5. build_constituent_profiles.py
+##5.## build_constituent_profiles.py
 Joins demographic data and disaster severity
 
-Links public opinion where available
+---
+
+## Current Status
+ Theoretical model complete - Complete
+
+ Data pipeline architecture defined - Complete
+
+ Initial modules under development - In process
+
+ Dataset integration in progress - In process
+
+ Links public opinion where available - In process
+
+## Future Goals
+- Develop full agent-based simulation model
+
+- Deploy dashboard for virtue field exploration
+
+- Publish dissertation chapters with linked model visualizations
+
+## Acknowledgments
+This project draws heavily from:
+
+- Elinor Ostrom's polycentric governance theory
+
+- Norbert Wiener’s cybernetics
+
+- Niklas Luhmann’s systems theory
+
+- Contemporary stability analysis (Lyapunov, Mittal & Vetrivel)
+ 
 
 
